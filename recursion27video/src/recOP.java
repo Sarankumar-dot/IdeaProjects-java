@@ -6,5 +6,6 @@ public class recOP {
         System.out.println("answer");
         System.out.println("ans");
         System.out.println("ans");
+        System.out.println("ans");
     }
 }
