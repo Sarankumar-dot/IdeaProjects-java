@@ -5,7 +5,8 @@ public class FibonacciRecursion {
            System.out.print(fibo((int) i) + " ");
       }
 
-      int ans = Math.pow(2,5);
+      fibo(5);
+//      int ans = (int) Math.pow(2,5);
       
 
         // code for factorial
@@ -14,12 +15,12 @@ public class FibonacciRecursion {
     }
 
 
-    static long fiboformula(long n){
-        // fibonacci formula
-        return Math.pow
-        return (long) (Math.pow(((1+ Math.sqrt(5))/2),n) / Math.sqrt(5));
-
-    }
+//    static long fiboformula(long n){
+//        // fibonacci formula
+//        return Math.pow(n);
+//        return (long) (Math.pow(((1+ Math.sqrt(5))/2),n) / Math.sqrt(5));
+//
+//    }
 
     static int fibo(int n){
         // base condition

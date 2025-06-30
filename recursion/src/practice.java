@@ -1,8 +1,16 @@
 import java.util.Scanner;
 public class practice {
     public static void main(String[] args) {
-        fibonacci(10);
+//        fibonacci(10);
 
+//        print1(5);
+
+//        System.out.println();
+//        int ans = fact(5);
+//        System.out.println(ans);
+
+       int ans =  fibo(6);
+        System.out.println(ans);
 
     }
     /*static int palindrome(){
@@ -24,6 +32,25 @@ public class practice {
         }
     }*/
 
+    static void print1(int n){
+        if(n==1){
+            System.out.println(n);
+            return;
+        }
+
+        System.out.println(n);
+        print1(n-1);
+
+    }
+
+    static int fact(int n){
+        if(n==0){
+            return 1;
+        }
+
+        return n * fact(n-1);
+    }
+
     static void fibonacci(int n){
         int num1 = 0;
         int num2 = 1;
@@ -36,6 +63,14 @@ public class practice {
             num2 = num3;
         }
 
+    }
+
+    static int  fibo(int n){
+        if(n<2){
+            return n;
+        }
+
+        return fibo(n-1)+fibo(n-2);
     }
 
 
