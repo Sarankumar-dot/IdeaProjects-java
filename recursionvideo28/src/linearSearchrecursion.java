@@ -23,6 +23,7 @@ public class linearSearchrecursion {
     }
 
     // finding all the indexes of target
+    // with defining list outside
     static ArrayList<Integer> list  = new ArrayList<>();
     static ArrayList<Integer> linear2(int[] arr,int i,int target ,ArrayList<Integer> list){
         if(i>arr.length-1){
@@ -35,4 +36,39 @@ public class linearSearchrecursion {
 
         return linear2(arr,i+1,target,list);
     }
+
+    // answer with passing the list into arguments
+    static ArrayList<Integer> linear(int[] arr , int target , int index,ArrayList<Integer> list){
+
+        if(index == arr.length){
+            return list;
+        }
+
+        if(arr[index] == target){
+            list.add(index);
+        }
+
+        return linear(arr,target,index+1,list);
+    }
+
+    // ans without passing the list in the arguments
+    static ArrayList<Integer> findAllIndex2(int[] arr, int target, int index) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        if (index == arr.length) {
+            return list;
+        }
+
+        // this will contain answer for that function call only
+        if (arr[index] == target) {
+            list.add(index);
+        }
+        ArrayList<Integer> ansFromBelowCalls = findAllIndex2(arr, target, index + 1);
+
+        list.addAll(ansFromBelowCalls);
+
+        return list;
+    }
+
 }
