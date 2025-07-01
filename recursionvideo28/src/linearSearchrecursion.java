@@ -5,6 +5,7 @@ public class linearSearchrecursion {
         int[] arr = {1,2,5,4,5};
         ArrayList<Integer> ans = linear2(arr,0,5,list);
         System.out.println(ans);
+        System.out.println(ans);
 
     }
 
@@ -72,3 +73,4 @@ public class linearSearchrecursion {
     }
 
 }
+
