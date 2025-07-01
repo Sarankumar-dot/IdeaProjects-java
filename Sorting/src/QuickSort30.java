@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 public class QuickSort30 {
     public static void main(String[] args) {
-        int[] arr = {4,3,2,1};
-//        sort(arr,0,arr.length-1);
-//        System.out.println(Arrays.toString(arr));
-
-        // internal sorting algos
-        Arrays.sort(arr);
+        int[] arr = {5,8,9,3,2,4};
+        sort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
+
+//        // internal sorting algos
+//        Arrays.sort(arr);
+//        System.out.println(Arrays.toString(arr));
 
     }
 

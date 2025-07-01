@@ -1,4 +1,4 @@
-public class StringSkip {
+public class StringSkipBASICQUESTIONS {
     public static void main(String[] args){
         String s = "baccappledajh";
 //        StringBuilder ans = new StringBuilder();

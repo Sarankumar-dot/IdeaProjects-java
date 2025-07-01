@@ -1,10 +1,13 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class MergeSortvideo29 {
     public static void main(String[] args) {
         int[] arr = {1,3,2,4,6,5};
         int[] ans = mergerSor(arr);
         System.out.println(Arrays.toString(ans));
+
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 
@@ -21,20 +24,20 @@ public class MergeSortvideo29 {
         return merge(left,right);
     }
 
-    static int[] merge(int[] first , int[] second){
+    static int[] merge(int[] left , int[] right){
 
-        int[] mix =new int[first.length+second.length];
+        int[] mix =new int[left.length+right.length];
         int i=0;
         int j=0;
         int k=0;
 
-        while(i<first.length && j<second.length){
+        while(i<left.length && j<right.length){
 
-            if(first[i] < second[j]){
-                mix[k] = first[i];
+            if(left[i] < right[j]){
+                mix[k] = left[i];
                 i++;
             }else{
-                mix[k] = second[j];
+                mix[k] = right[j];
                 j++;
             }
 
@@ -42,14 +45,14 @@ public class MergeSortvideo29 {
         }
         // it may be possible that one array may be incomplete to merge
         //so we find that array and ,merge all the elements in the last of the m,ix array
-        while(i< first.length){
-            mix[k] = first[i];
+        while(i< left.length){
+            mix[k] = left[i];
             k++;
             i++;
         }
 
-        while(j< second.length){
-            mix[k] = second[j];
+        while(j< right.length){
+            mix[k] = right[j];
             k++;
             j++;
         }
