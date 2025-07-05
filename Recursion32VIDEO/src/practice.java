@@ -31,7 +31,10 @@ public class practice {
 //        ArrayList<String> ans = diceRET("",4);
 //        System.out.println(ans);
 
-        diamond(5);
+//        diamond(5);
+
+//        int ans =pad2("","12");
+//        System.out.println(ans);
 
     }
 

@@ -75,7 +75,7 @@ public class PhonePad34 {
         if(up.isEmpty()){
             return 1;
         }
-        int count =0;
+        int count = 0;
         int digit = up.charAt(0) - '0';
 
         for (int i = (digit-1)*3; i <digit*3 ; i++) {

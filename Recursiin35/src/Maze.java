@@ -6,7 +6,9 @@ public class Maze {
 //        ArrayList<String> ans = mazePathList("",3,3);
 //        System.out.println(ans);
 
-//        System.out.println(mazeDiagonals(2,2));
+//        System.out.println(mazeDiagonals(3,3));
+
+
 //
 //        ArrayList<String> ans = mazePathListDiagonal("",2,2);
 //        System.out.println(ans);
@@ -14,12 +16,12 @@ public class Maze {
        boolean[][] maze = {
                {true,true,true},
                {true,false,true},
-               {true,false,true}
+               {true,true,true}
      };
-//        mazePathObstacles("",maze,0,0);
+        mazePathObstacles("",maze,0,0);
 
-        ArrayList<String> ans = mazePathObstaclesRET("",maze,0,0);
-        System.out.println(ans);
+//        ArrayList<String> ans = mazePathObstaclesRET("",maze,0,0);
+//        System.out.println(ans);
 
 
     }
