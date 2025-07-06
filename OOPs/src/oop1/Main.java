@@ -1,6 +1,4 @@
-package introduction1;
-
-import java.util.Arrays;
+package oop1;
 
 public class Main {
     public static void main(String[] args) {
