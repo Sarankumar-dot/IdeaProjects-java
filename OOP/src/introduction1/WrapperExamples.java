@@ -27,7 +27,6 @@ public class WrapperExamples {
         // but if you create another object using the above obj
         // saran = new New("new object"); you cant do it
         System.out.println(saran.name);
-
     }
 
     static void swap(Integer a , Integer b){
