@@ -1,4 +1,4 @@
-package Singleton6oop2;
+package oop2.Singleton;
 
 public class Singleton6 {
     String name;

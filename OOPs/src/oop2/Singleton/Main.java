@@ -1,4 +1,4 @@
-package Singleton6oop2;
+package oop2.Singleton;
 
 public class Main {
     public static void main(String[] args) {
