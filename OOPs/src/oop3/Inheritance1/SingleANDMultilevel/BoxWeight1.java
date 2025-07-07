@@ -6,6 +6,7 @@ public class BoxWeight1 extends Box1 {
     static void greet(){
         System.out.println("hello broo iam in boxweight");
         // static methods can be inherited but cannot be overidden , if we have this same meth in with boxweights object boxweight with some differnt printing statement  we can print it, but if we have some other classes refernce and object we cant print it
+        // we can acces it by creating the object of itself only
     }
 
     BoxWeight1(){
