@@ -6,10 +6,11 @@ public class Box1 {
     double l;
     double w;
 
-    static void greeting(){
-        System.out.println("iam in the box class ");
-        // you can access the static method by using class name or else you can access it via objects also
+    static void greet(){
+        System.out.println("hello broo");
+        // static methods can be inherited but cannot be overidden , if we have this same meth in with boxweights object boxweight with some differnt printing statement  we can print it, but if we have some other classes refernce and object we cant print it
     }
+
 
     Box1(){
         this.h = -1;

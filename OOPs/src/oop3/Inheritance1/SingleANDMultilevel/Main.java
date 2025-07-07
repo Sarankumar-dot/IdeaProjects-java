@@ -2,7 +2,7 @@ package oop3.Inheritance1.SingleANDMultilevel;
 
 public class Main {
     public static void main(String[] args) {
-        Box1 obj = new Box1(11.2 , 100.1,5.55);
+//        Box1 obj = new Box1(11.2 , 100.1,5.55);
 //        Box1 obj2 = new Box1(obj);
 //        obj.display();
 //        System.out.println(obj2.h +" " + obj2.w +" " + obj2.l);
@@ -38,8 +38,18 @@ public class Main {
 //        BoxPrice1 obj1 = new BoxPrice1(4,5,100);
 //        System.out.println(obj1.weight + " " + obj1.h+ " " + obj1.l+ " " + obj1.w + " " + obj1.cost);
 
-        Box1.greeting();
-        // you can also access it with objects also
-        obj.greeting();
+
+        // static method cannot be overidden and below are the examples
+        Box1.greet();
+
+//        BoxWeight1 oo = new BoxWeight1();
+//        oo.greet(); if we use this direct object creation,it will print it in the child class
+        // if boxweight does not contain greet then it checks for the parent and prints it
+
+        // if we create something like this
+//        Box1 ooo = new BoxWeight1();
+//        ooo.greet(); // it will print the one in the parent class
+
+        // conclusion --- u can inherit static methods but you cannot override
     }
 }
