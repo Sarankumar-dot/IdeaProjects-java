@@ -15,7 +15,7 @@ public class Packages {
             3. util contains arrays , arraylist and utility classes like data structures
             4. applet used to create applets in java used for dev [no need to learn]
             5. awt for buttons [ no need to learn]
-            6.
+            6. .net
 
             learn spring frameworks
 
