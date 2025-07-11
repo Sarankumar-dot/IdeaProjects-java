@@ -15,7 +15,7 @@ package oop3.EncapANDabstration;
 // data hiding is achieved via encapsulation and encapsulation is the subprocess of datahiding
 
 // for in depth check notes and video
-public class Main {
+public class ExampleMain {
 
     public static void main(String[] args) {
         example obj = new example();

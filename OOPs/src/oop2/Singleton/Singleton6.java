@@ -13,7 +13,7 @@ public class Singleton6 {
     }
     
     public static Singleton6 getInstance(){
-         if(instance==null){
+         if(instance == null){
              instance = new Singleton6();
          }
 
