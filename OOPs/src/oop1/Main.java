@@ -21,13 +21,18 @@ public class Main {
 //        saran.name = "saran";
 //        saran.marks = 88.66f;
 
-        System.out.println(saran.rno);
-        System.out.println(saran.name);
-        System.out.println(saran.marks);
+//        System.out.println(saran.rno);
+//        System.out.println(saran.name);
+//        System.out.println(saran.marks);
 
         // changing the name
-        saran.changename("kumar");
+        saran.changename("sarankumar");
         saran.greeting();
+
+        //changing marks
+        saran.changeMarks(99.99f);
+        System.out.println(saran.name);
+        System.out.println(saran.marks);
 
 
 
@@ -92,6 +97,11 @@ class Student{
     // changing the name of an object using this keyword
     void changename(String naae){
         this.name = naae;
+    }
+
+    // changing marks
+    void changeMarks(float marks){
+        this.marks = marks;
     }
 
     // when you create an object with 0 values as parameter the system uses this constructor
