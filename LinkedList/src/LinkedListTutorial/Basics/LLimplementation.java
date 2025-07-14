@@ -1,15 +1,15 @@
 package LinkedListTutorial.Basics;
 
 public class LLimplementation {
-    /// the are not continuous memory allocations like arrays
-    /// their elements are stored in different locations in heap and accessed thrpuch arrows or pointers
+    // the are not continuous memory allocations like arrays
+    // their elements are stored in different locations in heap and accessed thrpuch arrows or pointers
 
-    /// the boxes are called nodes
+    // the boxes are called nodes
 
-    /// Singly linked list
-    ///  1 -> 2-> 3-> 4-> 5->  every single items knows the other item knows anout the next item
-    ///  head-> is a reference variable points to first element
-    /// tail-> is a reference variable points to last element
+    // Singly linked list
+    //  1 -> 2-> 3-> 4-> 5->  every single items knows the other item knows anout the next item
+    //  head-> is a reference variable points to first element
+    // tail-> is a reference variable points to last element
 
 
     ///  node head ,tail , size

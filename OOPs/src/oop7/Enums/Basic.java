@@ -15,7 +15,7 @@ public class Basic {
 
         // internally this works as public static final Week Monday = new Monday();
 
-        /// enum can implement as many interface it wants
+        // enum can implement as many interface it wants
         @Override
         public void print(){
             System.out.println("this is running");
@@ -38,7 +38,7 @@ public class Basic {
 //            System.out.println(day);
 //        }
 
-      ///  System.out.println(week.ordinal()); // gives 0 because monday index is 0
+      //  System.out.println(week.ordinal()); // gives 0 because monday index is 0
         // ordinal us used to give the position of the value stored in the enum Week
     }
 }
