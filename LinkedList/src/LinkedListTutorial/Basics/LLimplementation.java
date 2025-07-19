@@ -1,5 +1,7 @@
 package LinkedListTutorial.Basics;
 
+import java.util.NoSuchElementException;
+
 public class LLimplementation {
     // the are not continuous memory allocations like arrays
     // their elements are stored in different locations in heap and accessed thrpuch arrows or pointers
@@ -48,6 +50,106 @@ public class LLimplementation {
         tail = node;
         size = size +1;
     }
+
+    /// inserting in desired location
+    public void insert(int value,int index){
+        if(index==0){
+            insertFirst(value);
+            return;
+        }
+        if(index == size){
+            insertLast(value);
+            return;
+        }
+
+        Node temp = head;
+        for (int i = 1; i <index; i++) {
+            temp = temp.next;
+        }
+
+        Node node = new Node(value,temp.next);
+        temp.next = node;
+        size++;
+    }
+
+    ///  deleting first
+    public int deleteFirst(){
+        if (head == null) {
+            throw new NoSuchElementException("List is empty");
+        }
+        int value = head.value;
+        head = head.next;
+
+        if(head==null){
+            tail=null;
+        }
+        size--;
+
+        return value;
+    }
+
+    /// getting index of a node
+    public Node get(int index){
+        Node temp = head;
+
+        for (int i = 0; i < index ; i++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
+    /// deleteLast
+
+    public int deleteLast(){
+        if (size == 0) {
+            throw new NoSuchElementException("List is empty");
+        }
+
+        if (size == 1) {
+            return deleteFirst(); // safely handled now
+        }
+
+        int value = tail.value;
+        Node SecondLast =get(size-2);
+
+
+        tail = SecondLast;
+        tail.next = null;
+        size--;
+        return value;
+    }
+
+    /// delete at desired index
+    public int delete(int index){
+        if(index == 1){
+            return deleteFirst();
+        }
+
+        if(index == size-1){
+            return deleteLast();
+        }
+        Node previous = get(index-1);
+        int val = previous.next.value;
+        previous.next = previous.next.next;
+        return val;
+
+
+    }
+
+    ///  finding a value in linked list and returning its index
+    public int findValue(int value){
+        Node temp = head;
+
+        int index = 0;
+        while(temp!=null){
+            if(temp.value == value){
+                return index;
+            }
+            temp = temp.next;
+            index++;
+        }
+        return -1; // if element not found
+    }
+
 
     /// displaying the link list
 
