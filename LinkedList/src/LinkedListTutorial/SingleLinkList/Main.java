@@ -1,4 +1,4 @@
-package LinkedListTutorial.Basics;
+package LinkedListTutorial.SingleLinkList;
 
 public class Main {
     public static void main(String[] args) {

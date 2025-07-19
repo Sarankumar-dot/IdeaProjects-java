@@ -1,4 +1,4 @@
-package LinkedListTutorial.Basics;
+package LinkedListTutorial.SingleLinkList;
 
 import java.util.NoSuchElementException;
 
