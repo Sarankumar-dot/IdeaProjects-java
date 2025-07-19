@@ -131,8 +131,6 @@ public class LLimplementation {
         int val = previous.next.value;
         previous.next = previous.next.next;
         return val;
-
-
     }
 
     ///  finding a value in linked list and returning its index
