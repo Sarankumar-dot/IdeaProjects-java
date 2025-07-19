@@ -90,6 +90,62 @@ public class DLL {
 
     }
 
+    // deleteFirst in link list
+    public void deleteFirst(){
+        if(size==0){
+            throw new NullPointerException("no elements");
+        }
+
+        if(head.next == null){
+            head = null;
+        }else {
+            head = head.next;
+            head.previous = null;
+        }
+
+        size--;
+
+    }
+
+    // delete last in link list
+    public void deleteLast(){
+
+        if(size == 0){
+            throw  new NullPointerException("no element");
+        }
+        Node temp = head;
+
+        while(temp.next.next != null){
+            temp = temp.next;
+        }
+
+        temp.next = null;
+        size--;
+    }
+
+    // delete at desired index
+    public void delete(int index){
+        if(index ==0){
+            deleteFirst();
+        }
+        Node temp = head;
+
+        temp = traverse(index-1);
+
+        Node toDelete = temp.next;
+        Node nextNode = temp.next.next;
+
+        temp.next = nextNode;
+
+        if(nextNode != null){
+            nextNode.previous = temp;
+        }
+
+        size--;
+
+    }
+
+
     /// display and reversal of linked list
     public void display(){
         Node temp = head;
