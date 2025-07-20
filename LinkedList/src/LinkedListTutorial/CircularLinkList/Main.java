@@ -10,7 +10,8 @@ public class Main {
 
         list.display();
 
-        list.delete(55);
+//        list.delete(55);
+
 
         list.display();
 
