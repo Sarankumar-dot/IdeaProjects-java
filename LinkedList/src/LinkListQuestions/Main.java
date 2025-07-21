@@ -1,5 +1,7 @@
 package LinkListQuestions;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Main {
@@ -28,8 +30,5 @@ public class Main {
 //        // remove duplicates leetcode 83
 //        list.RemoveDup();
 //        list.display();
-
-
-
     }
 }
