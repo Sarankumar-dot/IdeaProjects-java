@@ -11,7 +11,7 @@ public class ExceptionHandling {
 
 
         try{
-            sum(a,b);
+            div(a,b);
         } catch(ArithmeticException e) { // so more strict rules should come above [read the next cmt*****]
             System.out.println(e.getMessage());
         } catch (Exception e) { // here exception class contains every single exception if you want to add some important exceptions you can add it in the above with another catch block
@@ -23,11 +23,11 @@ public class ExceptionHandling {
 
     }
 
-    static int sum(int a , int b) throws ArithmeticException{
+    static int div(int a , int b) throws ArithmeticException{
         if(b== 0){
             throw  new ArithmeticException("do not divide by zero");
         }
 
-        return a+b;
+        return a/b;
     }
 }

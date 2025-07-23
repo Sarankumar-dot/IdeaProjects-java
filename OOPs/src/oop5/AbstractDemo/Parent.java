@@ -6,7 +6,7 @@ package oop5.AbstractDemo;
 
     the parents are giving the choice of choosing the career to their children
      if its inherited by the child1 and child2 classes then they can override it and fill the career name
-     // a child class in order to use the method of the parent class then it should override it...
+     // a child class in order to use the method of the parent class then it must override it...
 
      this is called as  abstract methods
 

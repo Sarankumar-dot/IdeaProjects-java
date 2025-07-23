@@ -7,11 +7,11 @@ public interface A {
 
     // starting from java 8 you can add some default implementation to the methods in interface
 
-     default void biriyani(){
+    default void biriyani(){
         System.out.println("iam inside  biriyani meth");
     }
 
-    // static methods can be inherited nut cannot be overidden
+    // static methods can be inherited but cannot be overidden
     // so for that only in interfaces static methods must have a body
     // you can only call the static methods by the interface names
 

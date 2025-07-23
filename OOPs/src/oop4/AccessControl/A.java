@@ -21,7 +21,7 @@ package oop4.AccessControl;
 */
 
 // when to use
-// private - is for sensitive data (used by getter and setter methods)
+// private - is for sensitive data (used by getter and setter methods) encap
 // default (no-modifier) - can be used only in inside a package
 // protected - can be used outside package with the help of parent class -- only the subclass access the protected member in the base class
 // public - can be used everywhere

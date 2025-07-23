@@ -1,7 +1,7 @@
 package oop3.Inheritance1.SingleANDMultilevel;
 
 public class Box1 {
-    // anything that starts with a private keyword the you can only acess within thst file
+    // anything that starts with a private keyword the you can only acecss within that file or class
     double h;
     double l;
     double w;
@@ -41,7 +41,7 @@ public class Box1 {
 
     public static void main(String[] args) {
 
-        // inheritance means the parent have some things the child can aslso use it
+        // inheritance means the parent have some things the child can also use it
         // by using inheritance
 
         // the child class can use the properties of the parent class

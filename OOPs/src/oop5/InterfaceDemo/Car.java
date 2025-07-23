@@ -16,7 +16,6 @@ public class Car implements Engine,Brake,Media{
     @Override
     public void stop() {
         System.out.println("i stop like a normal car");
-
     }
 
     @Override

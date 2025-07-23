@@ -17,7 +17,7 @@ public class BoxWeight1 extends Box1 {
     BoxWeight1(double h , double l , double w , double weight){
         // this keyword 'super' calls the parent class constructor properties
 
-        super(h,l,w); // we have to always initialize the supper before the child class initialization of weight
+        super(h,l,w); // we have to always initialize the super before the child class initialization of weight
 
         // you can also use the super class to get information from the parent class
         System.out.println(super.h); // which prints the height
@@ -31,7 +31,7 @@ public class BoxWeight1 extends Box1 {
         this.weight = weight;
     }
 
-     BoxWeight1(BoxPrice1 other) {
+     BoxWeight1(BoxWeight1 other) {
         super(other);
         this.weight = other.weight;
     }

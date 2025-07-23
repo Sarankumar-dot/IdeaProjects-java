@@ -28,5 +28,7 @@ public class Main {
         // upgrading electric engine
         obj.upgradeElecEngine();
         obj.start();
+        obj.stop();
+        obj.stopMusic();
     }
 }

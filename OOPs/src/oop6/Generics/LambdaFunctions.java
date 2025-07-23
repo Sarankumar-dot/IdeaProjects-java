@@ -39,5 +39,6 @@ public class LambdaFunctions{
 // creating an interface
 
 interface operation{
-    int operation(int a , int b);
+   abstract  int operation(int a , int b);
+   static final int name = 1;
 }

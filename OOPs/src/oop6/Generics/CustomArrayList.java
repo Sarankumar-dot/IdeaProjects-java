@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class CustomArrayList {
     private int[] arr;
     private static int  DEFAULT_SIZE = 10;
-    private  int size = 0;
+    private int size = 0;
 
     public CustomArrayList(){
         arr = new int[DEFAULT_SIZE];

@@ -12,7 +12,7 @@ public class Main {
         Student irul = new Student(4,99.66f);
 
 
-        // inorder to save this problem you have to implement comparable interface
+        // inorder to solve this problem you have to implement comparable interface
         if(kunal.compareTo(saran) == 0){
             System.out.println("both has same marks");
         } else if (kunal.compareTo(saran) < 0) {

@@ -7,12 +7,13 @@ public class Main {
         son.partner("good heart " , 26);
         son.name(1);
 
+        // accessing static methods by using class name
         Parent.name(11);
 
         Daughter daughter = new Daughter(10);
         daughter.career(" doctor");
         daughter.partner("good ",25);
-        daughter.name(2);
+        daughter.name(76394282);
 
         System.out.println(son.num);
         System.out.println(daughter.num);

@@ -9,7 +9,7 @@ public class Human1 {
 
 
     static void greet(){
-        System.out.println("hello world");
+        System.out.println("hello world nooooo");
         // you cannot use this keyword in static methods if you use it will give error
 //        System.out.println(this.name);
     }

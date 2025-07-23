@@ -13,10 +13,10 @@ public class Main {
 
 
 //        BoxWeight1 box = new BoxWeight1(10,20,39,22);
-//    System.out.println(box.h + " " + box.weight+ " " + box.w+ " " + box.l);
+//    System.out.println(box.h + " " + box.weight+ " " + box.w+ " " + box.l); here we can print the parent class variables
 //        box.display();
 
-        // you can access the child class from super class by using creating the obj of child class from super class
+        // you can access the child class from super class by  creating the obj of child class from super class
         // but by creating that also you cannot access the properties of child class
 
         // the below classes know what are the properties in the above class but the above class does not know what properties in the below classes
@@ -40,7 +40,7 @@ public class Main {
 
 
         // static method cannot be overidden and below are the examples
-        Box1.greet();
+       // Box1.greet();
 
 //        BoxWeight1 oo = new BoxWeight1();
 //        oo.greet(); if we use this direct object creation,it will print it in the child class

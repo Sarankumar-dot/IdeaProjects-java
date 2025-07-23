@@ -39,6 +39,6 @@ public class Basic {
 //        }
 
       //  System.out.println(week.ordinal()); // gives 0 because monday index is 0
-        // ordinal us used to give the position of the value stored in the enum Week
+        // ordinal is used to give the position of the value stored in the enum Week
     }
 }

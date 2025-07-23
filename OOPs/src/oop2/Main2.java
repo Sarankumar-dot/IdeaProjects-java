@@ -9,6 +9,7 @@ public class Main2 {
         // you can use the static variables from other class without creating an object ***
         // static variables are not dependent on objects without creating an object you can still use it
 //        System.out.println(Human1.population);
+        /// you can print static variables or methods by using class name of them
 
 
 
@@ -16,12 +17,19 @@ public class Main2 {
         // inside a static method we cannot use a method which is not static
         //greet("saran");
 
+        Human1.greet();
 
          /// in the below we are accessing the greet method  by creating an obj
         Main2 sarann = new Main2();
         sarann.greet("saram");
 
+        Human1 objjjj = new Human1(20,"saran",9999999,false);
+        System.out.println(objjjj.population);// we can still access static variables by creating methods but it shows us to use the class name instead of obj name
+
         fun();
+
+        StaticInitialization4 objj = new StaticInitialization4();
+        System.out.println(objj.a);
 
 
     }
