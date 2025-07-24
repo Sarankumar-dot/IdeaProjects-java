@@ -32,6 +32,10 @@ public class TwoArrays {
         ArrayList<Integer> anss = Merge2(arr,arr2);
         System.out.println(anss);
 
+        String a = "aaaaaabbccd";
+        String ansss = string(a);
+        System.out.println(ansss);
+
 
 
     }
@@ -100,4 +104,26 @@ public class TwoArrays {
         return list;
     }
     // check leetcode two pointers sums
+
+    // important string char counter problem
+    // aabbccd input string
+    // the ans string must be a2b2c2d1
+
+    static String string(String s){
+        // aabb
+        int count = 1;
+        StringBuilder sb = new StringBuilder();
+
+        for(int i = 0;i<s.length();i++){
+            if(i+1<s.length() && s.charAt(i) == s.charAt(i+1)){
+                count++;
+            }else{
+                sb.append(s.charAt(i));
+                sb.append(count);
+                count = 1;
+            }
+        }
+
+        return sb.toString();
+    }
 }
