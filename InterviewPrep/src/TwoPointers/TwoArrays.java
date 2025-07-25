@@ -36,6 +36,9 @@ public class TwoArrays {
         String ansss = string(a);
         System.out.println(ansss);
 
+        boolean ans1 = string2("sileet","listen");
+        System.out.println(ans1);
+
 
 
     }
@@ -124,6 +127,29 @@ public class TwoArrays {
             }
         }
 
+
         return sb.toString();
+    }
+
+    // string anagram or not
+    static boolean string2(String s,String a){
+        if(s.length() != a.length()){
+            return false;
+        }
+        int[] arr = new int[26];
+
+        for(char i:s.toCharArray()){
+            arr[i -'a']+=1;
+        }
+        for(char j:a.toCharArray()){
+            arr[j -'a']-=1;
+        }
+        for (int i = 0; i < arr.length ; i++) {
+            if(arr[i] > 0){
+                return false;
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+        return true;
     }
 }
