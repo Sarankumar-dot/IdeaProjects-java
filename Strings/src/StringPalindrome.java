@@ -22,3 +22,24 @@ public class StringPalindrome {
         return true;
     }
 }
+
+import java.util.Arrays;
+
+public class WordPalin {
+    // reversing the string of words 
+    // wprd palindrome
+    public static void main(String args[]) {
+       String s = "iam saran kumar";
+       String[] arr = s.split(" ");
+        System.out.println(Arrays.toString(arr));
+
+        for(int i = arr.length -1 ;i>=0;i--){
+            if(i!=arr.length-1){
+                System.out.print(" ");
+            }
+
+            System.out.print(arr[i]);
+        }
+    }
+}
+
