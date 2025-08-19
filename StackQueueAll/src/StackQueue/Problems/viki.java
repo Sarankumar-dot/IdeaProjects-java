@@ -1,4 +1,4 @@
-package Saran.StackQueue.Problems;
+package StackQueue.Problems;
 
 public class viki {
     public static void main(String[] args){
