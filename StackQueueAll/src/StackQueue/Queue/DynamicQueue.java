@@ -1,4 +1,4 @@
-package Saran.StackQueue.Queue;
+package StackQueue.Queue;
 
 public class DynamicQueue extends CustomQueue {
     public DynamicQueue(){

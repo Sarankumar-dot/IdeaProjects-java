@@ -1,4 +1,4 @@
-package Saran.StriverRecursion;
+package StriverRecursion;
 
 import java.sql.SQLOutput;
 import java.util.*;

@@ -1,4 +1,4 @@
-package Saran.StackQueue.Stsck;
+package StackQueue.Stsck;
 
 import java.util.Arrays;
 import java.util.Stack;

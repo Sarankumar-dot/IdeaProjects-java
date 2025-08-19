@@ -1,4 +1,4 @@
-package Saran.StackQueue.Problems;
+package StackQueue.Problems;
 
 import java.util.Stack;
 

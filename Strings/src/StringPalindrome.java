@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class StringPalindrome {
     public static void main(String[] args) {
         String name = null;
@@ -23,9 +25,8 @@ public class StringPalindrome {
     }
 }
 
-import java.util.Arrays;
 
-public class WordPalin {
+class WordPalin {
     // reversing the string of words 
     // wprd palindrome
     public static void main(String args[]) {

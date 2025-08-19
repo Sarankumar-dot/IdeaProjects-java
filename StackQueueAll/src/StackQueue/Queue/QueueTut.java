@@ -1,4 +1,4 @@
-package Saran.StackQueue.Queue;
+package StackQueue.Queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

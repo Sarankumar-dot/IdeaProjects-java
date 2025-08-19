@@ -1,4 +1,4 @@
-package Saran.StackQueue.Stsck;
+package StackQueue.Stsck;
 
 public class CustomStack {
     protected int[] data;

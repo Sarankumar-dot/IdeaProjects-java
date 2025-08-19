@@ -1,4 +1,4 @@
-package Saran.TrainingCodes;
+package TrainingCodes;
 
 public class ThreePalindrome {
     public static void main(String[] args) {
