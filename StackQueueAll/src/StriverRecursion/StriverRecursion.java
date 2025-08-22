@@ -50,6 +50,17 @@ public class StriverRecursion {
         System.out.println(max2);
 
 
+        int n = 10;
+        int m = 20;
+
+        n = m+n;
+        m = n - m;
+        n = n - m;
+
+        System.out.println(n +" "+m);
+
+
+
     }
 
     static ArrayList<String> ans(int[] arr) {
