@@ -37,8 +37,17 @@ public class StriverRecursion {
 //
 //        System.out.println(fiboFormula(6));
 
-        int[] aa = {3,1,2};
-        IntSubs(aa,0,list);
+//        int[] aa = {3,1,2};
+//        IntSubs(aa,0,list);
+
+        int a = 10;
+        int b = 90;
+        int c = 30;
+
+        int max = a>b ? a : b;
+        int max2 = max>c ? max : c;
+
+        System.out.println(max2);
 
 
     }
