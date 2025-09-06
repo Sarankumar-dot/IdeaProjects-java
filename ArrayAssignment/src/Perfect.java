@@ -11,6 +11,10 @@ public class Perfect {
         String s = "saran";
         s.startsWith("saran",0);
 
+        int i = 0;
+         int ansss =  s.charAt(i);
+        System.out.println(ansss);
+
 
     }
 
