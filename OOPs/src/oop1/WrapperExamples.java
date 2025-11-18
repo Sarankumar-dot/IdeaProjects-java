@@ -25,7 +25,7 @@ public class WrapperExamples {
         // after making an obj you can change the values by using objnames in final
         saran.name="saran";
         // but if you create another object using the above obj
-        /// when a non primitive is final then you cannot create another pobject of it as mentioned below
+        /// when a non primitive is final then you cannot create another object of it as mentioned below
         // saran = new New("new object"); you cant do it
         System.out.println(saran.name);
     }

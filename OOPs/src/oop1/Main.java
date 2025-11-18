@@ -84,7 +84,7 @@ public class Main {
 // class is basically a template of an object && an object is an instance of a class
 // real life examples of classes are car,fruits
 class Student{
-    // all the variables that  are inside your object is called instance varibles[instance means reference or example]
+    // all the variables that  are inside your class is called instance varibles[instance means reference or example]
     int rno;
     String name;
     float marks;

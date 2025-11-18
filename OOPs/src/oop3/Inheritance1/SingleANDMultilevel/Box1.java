@@ -7,8 +7,8 @@ public class Box1 {
     double w;
 
     static void greet(){
-        System.out.println("hello broo");
-        // static methods can be inherited but cannot be overidden , if we have this same meth in with boxweights object boxweight with some differnt printing statement  we can print it, but if we have some other classes refernce and object we cant print it
+        System.out.println("hello broo we are in box1");
+        // static methods can be inherited but cannot be overidden , if we have this same meth in  boxweight's object boxweight with some differnt printing statement  we can print it, but if we have some other classes refernce and object we cant print it
     }
 
 

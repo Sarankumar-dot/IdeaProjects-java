@@ -9,7 +9,7 @@ public class Main {
 //        System.out.println(obj.h +" " + obj.w +" " + obj.l);
 
         // if you want to access the child class from parent class is not possible
-//        System.out.println(obj.weight);
+//       System.out.println(obj.weight);
 
 
 //        BoxWeight1 box = new BoxWeight1(10,20,39,22);
@@ -42,13 +42,14 @@ public class Main {
         // static method cannot be overidden and below are the examples
        // Box1.greet();
 
-//        BoxWeight1 oo = new BoxWeight1();
-//        oo.greet(); if we use this direct object creation,it will print it in the child class
-        // if boxweight does not contain greet then it checks for the parent and prints it
+      // BoxWeight1 oo = new BoxWeight1();
+      //oo.greet(); //if we use this direct object creation,it will print it in the child class
+        //if boxweight does not contain greet then it checks for the parent and prints it
 
         // if we create something like this
 //        Box1 ooo = new BoxWeight1();
 //        ooo.greet(); // it will print the one in the parent class
+        // which means while you are creating objects like this you can only acces the methods and varibles that are both in the parent and child class
 
         // conclusion --- u can inherit static methods but you cannot override
     }

@@ -2,8 +2,8 @@ package oop3.EncapANDabstration;
 
 // encapsulation
 // wrappin up the implementation of the data members and methods inside a class
-// the datamembers are variable , methids etc....
-// it encapsulates the data so that it cannot be accesswd  by the outside world
+// the datamembers are variable , meth0ds etc....
+// it encapsulates the data so that it cannot be accessd  by the outside world
 // people confuses encapsulation with abstraction
 
 // abstraction
